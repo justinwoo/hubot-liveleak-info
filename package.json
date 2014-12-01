@@ -1,0 +1,32 @@
+{
+  "name": "hubot-liveleak-info",
+  "description": "A hubot script for getting info from LiveLeak links",
+  "version": "0.0.1",
+  "author": "Justin Woo",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, liveleak",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kimagure/hubot-liveleak-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimagure/hubot-liveleak-info/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "phantomjs": "^1.9"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
+    "hubot": "2.x",
+    "mocha": "^2.0.1",
+    "phantomjs": "^1.9.12",
+    "sinon": "^1.12.1",
+    "sinon-chai": "^2.6.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha tests.coffee --compilers coffee:coffee-script/register"
+  }
+}
