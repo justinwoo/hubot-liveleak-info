@@ -23,3 +23,9 @@ Then add **hubot-liveleak-info** to your `external-scripts.json`:
 you> http://www.liveleak.com/view?i=eb9_1417387762
 hubot> LiveLeak.com - News Crew Capture Frustrated Man That Misses His Train
 ```
+
+## Disclaimer
+
+This project was cloned from a repository on https://github.com/hubot-scripts/
+
+No guarantees made of any sort.
